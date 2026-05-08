@@ -2,13 +2,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Logo from "../assets/otakuverse-logo.png";
 
 const Navigate = () => {
     return (
         <Navbar expand="lg" sticky="top" className="navbar py-4 shadow-sm">
             <Container>
                 <Navbar.Brand href="#">
-                    <strong>OtakuVerse</strong>
+                    <img src={Logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
