@@ -1,3 +1,23 @@
 body {
     font-family: "Cause", sans-serif;
 }
+
+h1 {
+    font-family: "DM Serif Text", sans-serif;
+}
+
+header {
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../public/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 17px;
+}
