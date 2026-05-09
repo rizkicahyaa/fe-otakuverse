@@ -39,7 +39,23 @@ header p {
 }
 
 .anime-fav img {
-    width: 200px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.anime-fav .card {
+    border: 0px;
+}
+
+.anime-fav span {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.anime-fav .card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
