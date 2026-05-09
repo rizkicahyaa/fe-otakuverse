@@ -37,3 +37,9 @@ header p {
 .about p {
     text-align: justify;
 }
+
+.anime-fav img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
