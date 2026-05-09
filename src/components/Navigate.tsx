@@ -14,10 +14,10 @@ const Navigate = () => {
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="ms-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">About</Nav.Link>
-                        <Nav.Link href="#action2">Animes</Nav.Link>
-                        <Nav.Link href="#action2">Games</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#anime">Animes</Nav.Link>
+                        <Nav.Link href="#games">Games</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

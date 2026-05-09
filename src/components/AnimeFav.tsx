@@ -23,7 +23,7 @@ export default function AnimeFav() {
     ];
 
     return (
-        <section className="anime-fav py-5">
+        <section className="anime-fav py-5" id="anime">
             <Container>
                 <Row className="mb-4">
                     <h1>Anime Favorite</h1>

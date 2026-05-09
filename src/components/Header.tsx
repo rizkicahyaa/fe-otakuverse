@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const Header = () => {
     return (
-        <header className="d-flex justify-content-center align-items-center ">
+        <header className="d-flex justify-content-center align-items-center" id="home">
             <Container className="text-center">
                 <h1 className="mb-3">Welcome to OtakuVerse</h1>
                 <p>Explore my favorite anime series, iconic characters, and unforgettable games.</p>

@@ -7,7 +7,7 @@ import "../App.css";
 
 const About = () => {
     return (
-        <section className="about py-5">
+        <section className="about py-5" id="about">
             <Container>
                 <Row className="d-flex justify-content-center align-items-center g-4">
                     <Col md="6">
