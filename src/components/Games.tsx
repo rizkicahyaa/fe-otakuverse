@@ -13,7 +13,7 @@ export default function Games() {
         },
         {
             name: "Honkai Star Rail",
-            genre: ["Action", "MMORPG", "Anime"],
+            genre: ["Action", "Turn-Based RPG", "Anime"],
             image: "/images/hsr.jpg",
             id_game: "831586336",
         },
