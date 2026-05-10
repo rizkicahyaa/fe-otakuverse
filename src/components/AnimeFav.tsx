@@ -41,6 +41,12 @@ export default function AnimeFav() {
             genre: ["Drama", "Romance"],
             rating: "9.2",
         },
+        {
+            name: "Angel Beats!",
+            image: "/images/angel-beats.jpg",
+            genre: ["Drama", "Fantasy"],
+            rating: "8.5",
+        },
     ];
 
     return (
@@ -49,7 +55,7 @@ export default function AnimeFav() {
                 <Row className="mb-3">
                     <h1>Anime Favorite</h1>
                 </Row>
-                <Row className="d-flex justify-content-center">
+                <Row className="">
                     <>
                         {animes.map((anime) => (
                             <Col xs="8" md="2" className="g-4">
@@ -63,7 +69,12 @@ export default function AnimeFav() {
                                             </span>
                                         ))}
                                     </Card.Body>
-                                    <Card.Footer className="card-footer"></Card.Footer>
+                                    <Card.Footer className="card-footer">
+                                        <i className="bi bi-star-fill me-1"></i>
+                                        <span className="rating">
+                                            <strong>{anime.rating}</strong>
+                                        </span>
+                                    </Card.Footer>
                                 </Card>
                             </Col>
                         ))}

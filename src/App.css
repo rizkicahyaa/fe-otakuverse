@@ -46,7 +46,6 @@ header p {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    margin: auto;
     border-radius: 0%;
 }
 
@@ -67,7 +66,17 @@ header p {
     overflow: hidden;
 }
 
-.card-footer {
+.anime-fav .card-footer {
     background: none;
     border: none;
+    font-size: 20px;
+}
+
+.anime-fav .card-footer i {
+    color: #ea9800;
+    font-size: 14px;
+}
+
+.anime-fav .card-footer .rating {
+    font-size: 15px;
 }
