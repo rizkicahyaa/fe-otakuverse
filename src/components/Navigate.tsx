@@ -18,6 +18,7 @@ const Navigate = () => {
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#anime">Animes</Nav.Link>
                         <Nav.Link href="#games">Games</Nav.Link>
+                        <Nav.Link href="#characters">Characters</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

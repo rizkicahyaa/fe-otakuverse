@@ -13,7 +13,7 @@ export default function Games() {
             url: "https://genshin.hoyoverse.com/",
         },
         {
-            name: "Honkai Star Rail",
+            name: "Honkai: Star Rail",
             genre: ["Action", "Turn-Based RPG", "Anime"],
             image: "/images/hsr.jpg",
             id_game: "831586336",

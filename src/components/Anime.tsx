@@ -8,7 +8,7 @@ export default function Anime() {
     return (
         <section className="anime-fav py-5" id="anime">
             <Container>
-                <Row className="mb-3">
+                <Row className="mb-3 text-center">
                     <h1 className="text-uppercase">Anime Favorite</h1>
                 </Row>
                 <Row className="d-flex justify-content-center">

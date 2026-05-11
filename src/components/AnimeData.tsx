@@ -41,4 +41,16 @@ export const animes = [
         genre: ["Drama", "Fantasy"],
         rating: "8.5",
     },
+    {
+        name: "Charlotte",
+        image: "/images/charlotte.jpg",
+        genre: ["Drama", "School", "Super Power"],
+        rating: "8.2",
+    },
+    {
+        name: "K-On!",
+        image: "/images/k-on.jpg",
+        genre: ["Comedy", "Music", "School"],
+        rating: "8.4",
+    },
 ];
