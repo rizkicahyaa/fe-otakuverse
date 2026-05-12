@@ -1,10 +1,20 @@
+import { useState } from "react";
 import { Container } from "react-bootstrap";
+import Modal from "react-bootstrap/Modal";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { animes } from "./AnimeData";
 
 export default function Anime() {
+    const [dtAnime, setDtAnime] = useState(false);
+    const [selectedAnime, setSelectedAnime] = useState<any>(null);
+
+    const handleShow = (anime: any) => {
+        setSelectedAnime(anime);
+        setDtAnime(true);
+    };
+
     return (
         <section className="anime-fav py-5" id="anime">
             <Container>
@@ -31,12 +41,30 @@ export default function Anime() {
                                             <strong>{anime.rating}</strong>
                                         </span>
                                         <span className="anime-details">
-                                            <a href="">Details</a>
+                                            <a className="" onClick={() => handleShow(anime)}>
+                                                Details
+                                            </a>
                                         </span>
                                     </Card.Footer>
                                 </Card>
                             </Col>
                         ))}
+                        <Modal size="lg" show={dtAnime} onHide={() => setDtAnime(false)} aria-labelledby="blabla">
+                            <Modal.Header closeButton>
+                                <Modal.Title id="blabla">{selectedAnime?.name}</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <img src={selectedAnime?.image} alt={selectedAnime?.name} className="img-fluid rounded mb-3" />
+
+                                <p>
+                                    <strong>Genre:</strong> {selectedAnime?.genre.join(", ")}
+                                </p>
+
+                                <p>
+                                    <strong>Rating:</strong> ⭐ {selectedAnime?.rating}
+                                </p>
+                            </Modal.Body>
+                        </Modal>
                     </>
                 </Row>
             </Container>
