@@ -9,7 +9,7 @@ export default function Characters() {
         <section className="characters py-5" id="characters">
             <Container>
                 <Row className="text-center">
-                    <h1 className="text-uppercase">CHARACTERS</h1>
+                    <h1 className="text-uppercase">Characters</h1>
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <>
