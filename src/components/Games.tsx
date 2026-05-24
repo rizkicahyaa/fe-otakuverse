@@ -1,9 +1,17 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 export default function Games() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1800,
+        });
+    });
+
     const games = [
         {
             name: "Genshin Impact",
@@ -37,7 +45,7 @@ export default function Games() {
                 <Row>
                     {games.map((game) => (
                         <Col md="4" className="g-4">
-                            <Card className="card shadow-sm">
+                            <Card className="card shadow-sm" data-aos="fade-down">
                                 <Card.Img src={game.image} alt={game.name} />
                                 <Card.Body>
                                     <Card.Title>{game.name}</Card.Title>
