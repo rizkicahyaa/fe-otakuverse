@@ -32,7 +32,7 @@ export default function Anime() {
                     <>
                         {animes.map((anime) => (
                             <Col xs="8" md="2" className="g-4">
-                                <Card className="card shadow-sm h-100" data-aos="flip-left">
+                                <Card className="card shadow-sm h-100" data-aos="zoom-in" data-aos-delay={anime.delay}>
                                     <Card.Img variant="top" src={anime.image} alt={anime.name} />
                                     <Card.Body>
                                         <Card.Title className="card-title">{anime.name}</Card.Title>
