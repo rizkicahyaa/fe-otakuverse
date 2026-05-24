@@ -46,12 +46,12 @@ header p {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 0%;
+    border-radius: 10px;
 }
 
 .anime-fav .card {
     border: 0px;
-    border-radius: 0%;
+    border-radius: 10px;
 }
 
 .anime-fav span {
@@ -93,12 +93,12 @@ header p {
     width: 100%;
     height: 220px;
     object-fit: cover;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .games .card {
     border: none;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .games span {
@@ -118,4 +118,12 @@ header p {
 
 .characters {
     background-color: #f7fbfc;
+}
+
+.characters .card {
+    border-radius: 10px;
+}
+
+.characters img {
+    border-radius: 10px;
 }

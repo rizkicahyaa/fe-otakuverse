@@ -15,7 +15,7 @@ export default function Characters() {
                     <>
                         {character.map((character) => (
                             <Col xs="8" md="2" className="g-4">
-                                <Card className="shadow-sm h-100">
+                                <Card className="card shadow-sm h-100">
                                     <Card.Img variant="top" src={character.image} alt={character.name} />
                                     <Card.Body>
                                         <Card.Title className="card-title">{character.name}</Card.Title>
