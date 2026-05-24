@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
@@ -5,6 +7,12 @@ import Col from "react-bootstrap/Col";
 import { character } from "./CharactersData";
 
 export default function Characters() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1800,
+        });
+    });
+
     return (
         <section className="characters py-5" id="characters">
             <Container>
@@ -15,7 +23,7 @@ export default function Characters() {
                     <>
                         {character.map((character) => (
                             <Col xs="8" md="2" className="g-4">
-                                <Card className="card shadow-sm h-100">
+                                <Card className="card shadow-sm h-100" data-aos="flip-right">
                                     <Card.Img variant="top" src={character.image} alt={character.name} />
                                     <Card.Body>
                                         <Card.Title className="card-title">{character.name}</Card.Title>
