@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
 import { Container } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import Row from "react-bootstrap/Row";
@@ -15,6 +16,12 @@ export default function Anime() {
         setDtAnime(true);
     };
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1800,
+        });
+    });
+
     return (
         <section className="anime-fav py-5" id="anime">
             <Container>
@@ -25,7 +32,7 @@ export default function Anime() {
                     <>
                         {animes.map((anime) => (
                             <Col xs="8" md="2" className="g-4">
-                                <Card className="card shadow-sm h-100">
+                                <Card className="card shadow-sm h-100" data-aos="flip-left">
                                     <Card.Img variant="top" src={anime.image} alt={anime.name} />
                                     <Card.Body>
                                         <Card.Title className="card-title">{anime.name}</Card.Title>
