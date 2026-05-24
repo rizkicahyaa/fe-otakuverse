@@ -23,7 +23,7 @@ export default function Characters() {
                     <>
                         {character.map((character) => (
                             <Col xs="8" md="2" className="g-4">
-                                <Card className="card shadow-sm h-100" data-aos="flip-right">
+                                <Card className="card shadow-sm h-100" data-aos="flip-right" data-aos-delay={character.delay}>
                                     <Card.Img variant="top" src={character.image} alt={character.name} />
                                     <Card.Body>
                                         <Card.Title className="card-title">{character.name}</Card.Title>
