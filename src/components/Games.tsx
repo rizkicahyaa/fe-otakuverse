@@ -19,6 +19,7 @@ export default function Games() {
             image: "/images/genshin.jpeg",
             id_game: "838061240",
             url: "https://genshin.hoyoverse.com/",
+            delay: 0,
         },
         {
             name: "Honkai: Star Rail",
@@ -26,6 +27,7 @@ export default function Games() {
             image: "/images/hsr.jpg",
             id_game: "831586336",
             url: "https://hsr.hoyoverse.com/",
+            delay: 100,
         },
         {
             name: "Umamusume: Pretty Derby",
@@ -33,6 +35,7 @@ export default function Games() {
             image: "/images/umamusume.jpg",
             id_game: "386971561576",
             url: "https://umamusume.com/",
+            delay: 200,
         },
     ];
 
@@ -45,7 +48,7 @@ export default function Games() {
                 <Row>
                     {games.map((game) => (
                         <Col md="4" className="g-4">
-                            <Card className="card shadow-sm" data-aos="fade-down">
+                            <Card className="card shadow-sm" data-aos="fade-down" data-aos-delay={game.delay}>
                                 <Card.Img src={game.image} alt={game.name} />
                                 <Card.Body>
                                     <Card.Title>{game.name}</Card.Title>
