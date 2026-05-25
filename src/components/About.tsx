@@ -24,9 +24,13 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md="6">
-                        <div data-aos="fade-down" data-aos-delay="500">
-                            <h1 className="mb-3 text-uppercase">About</h1>
-                            <p> OtakuVerse is a personal space dedicated to the anime series, characters, and games that I truly enjoy. This website was created to share my favorite worlds from action-packed shounen adventures to emotional fantasy stories and immersive gaming experiences. Through OtakuVerse, I want to showcase the titles that inspired me, entertained me, and became part of my journey as an anime and game enthusiast.</p>
+                        <div>
+                            <h1 className="mb-3 text-uppercase" data-aos="fade-down" data-aos-delay="500">
+                                About
+                            </h1>
+                            <p data-aos="fade-down" data-aos-delay="600">
+                                OtakuVerse is a personal space dedicated to the anime series, characters, and games that I truly enjoy. This website was created to share my favorite worlds from action-packed shounen adventures to emotional fantasy stories and immersive gaming experiences. Through OtakuVerse, I want to showcase the titles that inspired me, entertained me, and became part of my journey as an anime and game enthusiast.
+                            </p>
                         </div>
                     </Col>
                 </Row>
