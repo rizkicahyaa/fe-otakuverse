@@ -19,7 +19,7 @@ export default function Games() {
             image: "/images/genshin.jpeg",
             id_game: "838061240",
             url: "https://genshin.hoyoverse.com/",
-            delay: 0,
+            delay: 100,
         },
         {
             name: "Honkai: Star Rail",
@@ -27,7 +27,7 @@ export default function Games() {
             image: "/images/hsr.jpg",
             id_game: "831586336",
             url: "https://hsr.hoyoverse.com/",
-            delay: 100,
+            delay: 200,
         },
         {
             name: "Umamusume: Pretty Derby",
@@ -35,7 +35,7 @@ export default function Games() {
             image: "/images/umamusume.jpg",
             id_game: "386971561576",
             url: "https://umamusume.com/",
-            delay: 200,
+            delay: 300,
         },
     ];
 
@@ -43,7 +43,9 @@ export default function Games() {
         <section className="games py-5" id="games">
             <Container>
                 <Row className="text-center mb-2">
-                    <h1 className="text-uppercase">Games Favorite</h1>
+                    <h1 className="text-uppercase" data-aos="fade-down">
+                        Games Favorite
+                    </h1>
                 </Row>
                 <Row>
                     {games.map((game) => (
