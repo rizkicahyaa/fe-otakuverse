@@ -17,9 +17,14 @@ h1 {
 header {
     min-height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.684), rgba(0, 0, 0, 0.684)), url(../background.jpg);
+
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+
     color: #fff;
+
+    animation: bgScroll 20s linear infinite alternate;
 }
 
 header h1 {
@@ -126,4 +131,14 @@ header p {
 
 .characters img {
     border-radius: 10px;
+}
+
+@keyframes bgScroll {
+    0% {
+        background-position: center top;
+    }
+
+    100% {
+        background-position: center bottom;
+    }
 }
