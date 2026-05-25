@@ -6,7 +6,7 @@ export const animes = [
         genre: ["Action", "Historical", "Shounen"],
         rating: "9.2",
         synopsis: "Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjoy a relatively peaceful and happy life. One day, Tanjirou decides to go down to the local village to make a little money selling charcoal. On his way back, night falls, forcing Tanjirou to take shelter in the house of a strange man, who warns him of the existence of flesh-eating demons that lurk in the woods at night. When he finally arrives back home the next day, he is met with a horrifying sight—his whole family has been slaughtered. Worse still, the sole survivor is his sister Nezuko, who has been turned into a bloodthirsty demon. Consumed by rage and hatred, Tanjirou swears to avenge his family and stay by his only remaining sibling. Alongside the mysterious group calling themselves the Demon Slayer Corps, Tanjirou will do whatever it takes to slay the demons and protect the remnants of his beloved sister's humanity.",
-        delay: 0,
+        delay: 100,
     },
     {
         id: "2",
@@ -15,7 +15,7 @@ export const animes = [
         genre: ["Adventure", "Comedy", "Fantasy"],
         rating: "9.2",
         synopsis: "After dying a laughable and pathetic death on his way back from buying a game, high school student and recluse Kazuma Satou finds himself sitting before a beautiful but obnoxious goddess named Aqua. She provides the NEET with two options: continue on to heaven or reincarnate in every gamer's dream—a real fantasy world! Choosing to start a new life, Kazuma is quickly tasked with defeating a Demon King who is terrorizing villages. But before he goes, he can choose one item of any kind to aid him in his quest, and the future hero selects Aqua. But Kazuma has made a grave mistake—Aqua is completely useless! Unfortunately, their troubles don't end here; it turns out that living in such a world is far different from how it plays out in a game. Instead of going on a thrilling adventure, the duo must first work to pay for their living expenses. Indeed, their misfortunes have only just begun!",
-        delay: 100,
+        delay: 200,
     },
     {
         id: "3",
@@ -24,7 +24,7 @@ export const animes = [
         genre: ["Sport", "Comedy", "Shounen"],
         rating: "9.2",
         synopsis: "Ever since having witnessed the `Little Giant` and his astonishing skills on the volleyball court, Shouyou Hinata has been bewitched by the dynamic nature of the sport. Even though his attempt to make his debut as a volleyball regular during a middle school tournament went up in flames, he longs to prove that his less-than-impressive height ceases to be a hindrance in the face of his sheer will and perseverance. When Hinata enrolls in Karasuno High School, the Little Giant's alma mater, he believes that he is one step closer to his goal of becoming a professional volleyball player. Although the school only retains a shadow of its former glory, Hinata's conviction isn't shaken until he learns that Tobio Kageyama—the prodigy who humiliated Hinata's middle school volleyball team in a crushing defeat—is now his teammate. To fulfill his desire of leaving a mark on the realm of volleyball—so often regarded as the domain of the tall and the strong—Hinata must smooth out his differences with Kageyama. Only when Hinata learns what it takes to be a part of a team will he be able to join the race to the top in earnest.",
-        delay: 200,
+        delay: 300,
     },
     {
         id: "4",
@@ -33,7 +33,7 @@ export const animes = [
         genre: ["Action", "Comedy", "Shounen"],
         rating: "9.2",
         synopsis: "Life in the bustling city of Orario is never dull, especially for Bell Cranel, a naive young man who hopes to become the greatest adventurer in the land. After a chance encounter with the lonely goddess, Hestia, his dreams become a little closer to reality. With her support, Bell embarks on a fantastic quest as he ventures deep within the city's monster-filled catacombs, known only as the `Dungeon`. Death lurks around every corner in the cavernous depths of this terrifying labyrinth, and a mysterious power moves amidst the shadows. Even on the surface, survival is a hard-earned privilege. Indeed, nothing is ever certain in a world where gods and humans live and work together, especially when they often struggle to get along. One thing is for sure, though: a myriad of blunders, triumphs and friendships awaits the dauntlessly optimistic protagonist of this herculean tale.",
-        delay: 300,
+        delay: 400,
     },
     {
         id: "5",
@@ -42,7 +42,7 @@ export const animes = [
         genre: ["Action", "Fantasy", "Shounen"],
         rating: "9.2",
         synopsis: "Ever since the release of the innovative NerveGear, gamers from all around the globe have been given the opportunity to experience a completely immersive virtual reality. Sword Art Online (SAO), one of the most recent games on the console, offers a gateway into the wondrous world of Aincrad, a vivid, medieval landscape where users can do anything within the limits of imagination. With the release of this worldwide sensation, gaming has never felt more lifelike. However, the idyllic fantasy rapidly becomes a brutal nightmare when SAO's creator traps thousands of players inside the game. The `log-out` function has been removed, with the only method of escape involving beating all of Aincrad's one hundred increasingly difficult levels. Adding to the struggle, any in-game death becomes permanent, ending the player's life in the real world. While Kazuto `Kirito` Kirigaya was fortunate enough to be a beta-tester for the game, he quickly finds that despite his advantages, he cannot overcome SAO's challenges alone. Teaming up with Asuna Yuuki and other talented players, Kirito makes an effort to face the seemingly insurmountable trials head-on. But with difficult bosses and threatening dark cults impeding his progress, Kirito finds that such tasks are much easier said than done.",
-        delay: 400,
+        delay: 500,
     },
     {
         id: "6",
@@ -51,7 +51,7 @@ export const animes = [
         genre: ["Drama", "Romance"],
         rating: "9.2",
         synopsis: "The rare and inexplicable Puberty Syndrome is thought of as a myth. It is a rare disease which only affects teenagers, and its symptoms are so supernatural that hardly anyone recognizes it as a legitimate occurrence. However, high school student Sakuta Azusagawa knows from personal experience that it is very much real, and happens to be quite prevalent in his school. Mai Sakurajima is a third-year high school student who gained fame in her youth as a child actress, but recently halted her promising career for reasons unknown to the public. With an air of unapproachability, she is well known throughout the school, but none dare interact with her—that is until Sakuta sees her wandering the library in a bunny girl costume. Despite the getup, no one seems to notice her, and after confronting her, he realizes that she is another victim of Puberty Syndrome. As Sakuta tries to help Mai through her predicament, his actions bring him into contact with more girls afflicted with the elusive disease.",
-        delay: 500,
+        delay: 600,
     },
     {
         id: "7",
@@ -60,7 +60,7 @@ export const animes = [
         genre: ["Drama", "Fantasy"],
         rating: "8.5",
         synopsis: "Death is one of many mysteries that has left humanity in the dark since the dawn of time. However, the burning question of what happens to the soul after one dies is soon answered to 17-year-old Yuzuru Otonashi. Waking up with no previous memories in a dimension between life and death, he discovers the unsettling truth of the afterlife. Taking the form of a high school, this bizarre dimension is designated to shelter those who died unwanted deaths. Feeling wronged by God during their earthly lives, the school's residents have decided to form the Afterlife Battlefront—a rebellious faction determined to oppose their god-like student council president, Kanade `Angel` Tachibana. The group's leader, Yuri Nakamura, recruits Otonashi in their fight against Angel in order to take control of their own lives. However, questioning the morality behind their actions, Otonashi takes a step behind the enemy lines to understand the opposing side of their common fate.",
-        delay: 600,
+        delay: 700,
     },
     {
         id: "8",
@@ -69,7 +69,7 @@ export const animes = [
         genre: ["Drama", "School", "Super Power"],
         rating: "8.2",
         synopsis: "If not for his ability to take over people's mind and body, Yuu Otosaka would be an ordinary high school student. Though it only lasts for five seconds at a time, Yuu's mysterious power allowed him to cheat his way to the top of his class and enter a prestigious high school, where he continues his dishonest acts. His shenanigans are eventually stopped by Nao Tomori—the headstrong student council president from Hoshinoumi Academy—who sees through his deceit. Through coercion, Nao convinces Yuu to transfer to Hoshinoumi and join the student council. Hoshinoumi Academy is secretly an institution created for adolescents who possess supernatural abilities—with the student council serving as a means of locating those who abuse their powers. With Yuu begrudgingly assisting in council affairs, the group sets out to find and protect new ability users from harm. However, as they further investigate the abilities, their findings entangle them in far more complicated matters than they could ever imagine.",
-        delay: 700,
+        delay: 800,
     },
     {
         id: "9",
@@ -78,6 +78,6 @@ export const animes = [
         genre: ["Comedy", "Music", "School"],
         rating: "8.4",
         synopsis: "A fresh high school year always means much to come, and one of those things is joining a club. Being in a dilemma about which club to join, Yui Hirasawa stumbles upon and applies for the Light Music Club, which she misinterprets to be about playing simple instruments, such as castanets. Unable to play an instrument, she decides to visit to apologize and quit. Meanwhile, the Light Music Club faces disbandment due to a lack of members. This causes the club members to offer anything, from food to slacking off during club time, in order to convince Yui to join. Despite their efforts, Yui insists on leaving due to her lack of musical experience. As a last resort, they play a piece for Yui, which sparks her fiery passion and finally convinces her to join the club. From then onward, it is just plain messing around with bits and pieces of practice. The members of the Light Music Club are ready to make their time together a delightful one!",
-        delay: 800,
+        delay: 900,
     },
 ];

@@ -26,7 +26,9 @@ export default function Anime() {
         <section className="anime-fav py-5" id="anime">
             <Container>
                 <Row className="mb-2">
-                    <h1 className="text-uppercase">Anime Favorite</h1>
+                    <h1 className="text-uppercase" data-aos="fade-down">
+                        Anime Favorite
+                    </h1>
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <>
