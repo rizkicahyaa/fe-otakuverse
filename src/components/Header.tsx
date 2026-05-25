@@ -12,9 +12,13 @@ const Header = () => {
 
     return (
         <header className="d-flex justify-content-center align-items-center" id="home">
-            <Container className="text-center" data-aos="zoom-in" data-aos-once="false">
-                <h1 className="mb-3">Welcome to OtakuVerse</h1>
-                <p>Explore my favorite anime series, iconic characters, and unforgettable games.</p>
+            <Container className="text-center">
+                <h1 className="mb-3" data-aos="zoom-in">
+                    Welcome to OtakuVerse
+                </h1>
+                <p data-aos="zoom-in" data-aos-delay="200">
+                    Explore my favorite anime series, iconic characters, and unforgettable games.
+                </p>
             </Container>
         </header>
     );
