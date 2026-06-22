@@ -12,6 +12,8 @@ OtakuVerse is a personal website that showcases my favorite anime series, charac
 
 ## Technologies Used
 
+- Vite
+- Typescript
 - React
 - Bootstrap
 
