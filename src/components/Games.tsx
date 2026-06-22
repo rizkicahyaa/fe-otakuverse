@@ -50,7 +50,7 @@ export default function Games() {
                 <Row>
                     {games.map((game) => (
                         <Col md="4" className="g-4">
-                            <Card className="card shadow-sm" data-aos="fade-down" data-aos-delay={game.delay}>
+                            <Card className="card shadow-sm px-3 py-3" data-aos="fade-down" data-aos-delay={game.delay}>
                                 <Card.Img src={game.image} alt={game.name} />
                                 <Card.Body>
                                     <Card.Title>{game.name}</Card.Title>
