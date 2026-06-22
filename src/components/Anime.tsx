@@ -37,7 +37,7 @@ export default function Anime() {
                                 <Card className="card shadow-sm h-100 px-3 py-3" data-aos="zoom-in" data-aos-delay={anime.delay}>
                                     <Card.Img variant="top" src={anime.image} alt={anime.name} />
                                     <Card.Body>
-                                        <Card.Title className="card-title">{anime.name}</Card.Title>
+                                        <h5 className="card-title">{anime.name}</h5>
                                         {anime.genre.map((genres) => (
                                             <span className="badge text-bg-light me-1" key={genres}>
                                                 {genres}
@@ -61,7 +61,7 @@ export default function Anime() {
                         <Modal size="lg" show={dtAnime} onHide={() => setDtAnime(false)} aria-labelledby="blabla">
                             <Container>
                                 <Modal.Header closeButton>
-                                    <Modal.Title id="blabla">{selectedAnime?.name}</Modal.Title>
+                                    <h4 id="blabla">{selectedAnime?.name}</h4>
                                 </Modal.Header>
                                 <Modal.Body>
                                     <Row className="d-flex justify-content-center">

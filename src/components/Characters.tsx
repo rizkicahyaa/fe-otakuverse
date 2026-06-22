@@ -28,7 +28,7 @@ export default function Characters() {
                                 <Card className="card shadow-sm h-100 p-2" data-aos="flip-right" data-aos-delay={character.delay}>
                                     <Card.Img variant="top" src={character.image} alt={character.name} />
                                     <Card.Body>
-                                        <Card.Title className="card-title">{character.name}</Card.Title>
+                                        <h5 className="card-title">{character.name}</h5>
                                     </Card.Body>
                                     <Card.Footer>
                                         <span>{character.anime}</span>

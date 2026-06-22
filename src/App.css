@@ -2,7 +2,11 @@ body {
     font-family: "Cause", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: "DM Serif Text", sans-serif;
 }
 

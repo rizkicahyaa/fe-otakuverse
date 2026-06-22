@@ -53,7 +53,7 @@ export default function Games() {
                             <Card className="card shadow-sm px-3 py-3" data-aos="fade-down" data-aos-delay={game.delay}>
                                 <Card.Img src={game.image} alt={game.name} />
                                 <Card.Body>
-                                    <Card.Title>{game.name}</Card.Title>
+                                    <h5>{game.name}</h5>
                                     {game.genre.map((genres) => (
                                         <span className="badge text-bg-light me-1" key={genres}>
                                             {genres}
