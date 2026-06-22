@@ -33,8 +33,8 @@ export default function Anime() {
                 <Row className="d-flex justify-content-center">
                     <>
                         {animes.map((anime) => (
-                            <Col xs="8" md="2" className="g-4">
-                                <Card className="card shadow-sm h-100" data-aos="zoom-in" data-aos-delay={anime.delay}>
+                            <Col xs="8" md="3" className="g-4">
+                                <Card className="card shadow-sm h-100 px-3 py-3" data-aos="zoom-in" data-aos-delay={anime.delay}>
                                     <Card.Img variant="top" src={anime.image} alt={anime.name} />
                                     <Card.Body>
                                         <Card.Title className="card-title">{anime.name}</Card.Title>
